@@ -49,7 +49,7 @@ const LoginPage = () => {
         try {
           const res = await axios({
             method: "post",
-            url: "/auth/login",
+            url: "https://transaction-tracker-be.herokuapp.com/auth/login",
             headers: {
               "Content-Type": "application/json",
             },
