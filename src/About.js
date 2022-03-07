@@ -26,7 +26,7 @@ const About = () => {
     try {
       let { data } = await axios({
         method: "get",
-        url: `api/users/${localStorage.getItem("id")}`,
+        url: `https://transaction-tracker-be.herokuapp.com/api/users/${localStorage.getItem("id")}`,
         headers: {
           "Content-Type": "application/json",
           "access-token": "Bearer " + `${localStorage.getItem("token")}`,
@@ -71,7 +71,7 @@ const About = () => {
     console.log(pic);
     const { data } = await axios({
       method: "put",
-      url: `api/users/${localStorage.getItem("id")}`,
+      url: `https://transaction-tracker-be.herokuapp.com/api/users/${localStorage.getItem("id")}`,
       headers: {
         "Content-Type": "application/json",
         "access-token": "Bearer " + `${localStorage.getItem("token")}`,
@@ -136,7 +136,7 @@ const About = () => {
       const handleAdd = async (values) => {
         const { data } = await axios({
           method: "put",
-          url: `api/users/${localStorage.getItem("id")}`,
+          url: `https://transaction-tracker-be.herokuapp.com/api/users/${localStorage.getItem("id")}`,
           headers: {
             "Content-Type": "application/json",
             "access-token": "Bearer " + `${localStorage.getItem("token")}`,
