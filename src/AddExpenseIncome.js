@@ -34,7 +34,7 @@ const AddExpenseIncome = () => {
     try {
       let { data } = await axios({
         method: "get",
-        url: `api/users/${localStorage.getItem("id")}`,
+        url: `https://transaction-tracker-be.herokuapp.com/api/users/${localStorage.getItem("id")}`,
         headers: {
           "Content-Type": "application/json",
           "access-token": "Bearer " + `${localStorage.getItem("token")}`,
@@ -116,7 +116,7 @@ const AddExpenseIncome = () => {
     try {
       let data = await axios({
         method: "put",
-        url: `api/users/${localStorage.getItem("id")}`,
+        url: `https://transaction-tracker-be.herokuapp.com/api/users/${localStorage.getItem("id")}`,
         headers: {
           "Content-Type": "application/json",
           "access-token": "Bearer " + `${localStorage.getItem("token")}`,
