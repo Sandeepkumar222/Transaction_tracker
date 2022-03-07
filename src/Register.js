@@ -48,7 +48,7 @@ const Register = (props) => {
         try {
           const res = await axios({
             method: "post",
-            url: "/auth/register/",
+            url: "https://transaction-tracker-be.herokuapp.com/auth/register/",
             headers: { "Content-Type": "application/json" },
             data: {
               email: values.email,
