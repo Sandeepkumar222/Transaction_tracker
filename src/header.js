@@ -24,7 +24,7 @@ const Header = () => {
                     height="35"
                     className="align-top d-inline-block"
                   />{" "}
-                  Fitness Tracker
+                  Transactions Tracker
                 </Link>
               </li>
               <li className="nav-item">
