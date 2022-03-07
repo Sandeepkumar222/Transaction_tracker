@@ -39,7 +39,7 @@ const ForgotPassword = () => {
         try {
           const res = await axios({
             method: "post",
-            url: "/forgotPassword/emailSending",
+            url: "https://transaction-tracker-be.herokuapp.com//forgotPassword/emailSending",
             headers: { "Content-Type": "application/json" },
             data: {
               email: values.email,
