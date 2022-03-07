@@ -34,7 +34,7 @@ const Home = () => {
         </Row>
         <br></br>
         <Row className="justify-content">
-          <h1 className="font-weight-bold">Design of Crud App</h1>
+          <h1 className="font-weight-bold">Design of Transaction tracker</h1>
           <p>
             <span className="font-italic font-weight-bold">
               CRUD Meaning :{" "}
