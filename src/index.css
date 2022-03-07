@@ -1,0 +1,83 @@
+ .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    height : 10rem;
+  }
+
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    height : 4rem;
+  }
+
+  /* Style the top navigation bar */
+ 
+   .topnav {
+    position: absolute;
+    top : 5.2rem;
+    overflow: hidden;
+    background-color: rgb(13 202 240 / 70%);
+  } 
+  
+  /* Style the topnav links */
+   .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+ .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
+.carousel{
+    height : 30rem;
+    width : 50rem;
+}
+
+.login{
+  position: absolute;
+    top: 25%;
+    left: 64%;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+}
+
+.bg{
+  background: #f0f2f5;
+}
+
+.title{
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  color: #1877f2;
+  font-weight: 600;
+}
+.quote{
+  position: absolute;
+    top: 34%;
+    left: 12%;
+    color: #3a3b3d;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.forgotPassword{
+  color : red;
+  font-size : 15px;
+  text-decoration: underline;
+}
