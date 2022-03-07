@@ -55,7 +55,7 @@ const ChangePassword = () => {
         try {
           const res = await axios({
             method: "put",
-            url: `/forgotPassword/${match.params.token}`,
+            url: `https://transaction-tracker-be.herokuapp.com/forgotPassword/${match.params.token}`,
             headers: { "Content-Type": "application/json" },
             data: {
               password: values.password,
